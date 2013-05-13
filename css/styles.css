@@ -1,0 +1,7 @@
+.jp-audio .jp-playlist a.jp-playlist-item, .jp-time-holder {
+    font-size: 0.8em;
+}
+
+.jp-playlist li {
+    line-height: 1.25;
+}
