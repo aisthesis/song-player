@@ -3,6 +3,7 @@
 <head>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+    <script type="text/javascript" src="js/add-on/jplayer.playlist.min.js"></script>
     <script type="text/javascript" src="js/jplayerinit.js"></script>
 
     <link type="text/css" href="skin/jplayer.blue.monday.css" rel="stylesheet" />
@@ -11,7 +12,7 @@
 
 	<div id="jquery_jplayer_1" class="jp-jplayer"></div>
     <div id="jp_container_1" class="jp-audio">
-        <div class="jp-type-single">
+        <div class="jp-type-playlist">
           <div class="jp-gui jp-interface">
             <ul class="jp-controls">
               <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
@@ -32,22 +33,24 @@
             <div class="jp-time-holder">
               <div class="jp-current-time"></div>
               <div class="jp-duration"></div>
-              <ul class="jp-toggles">
+            </div>
+            <ul class="jp-toggles">
+                <li><a href="javascript:;" class="jp-shuffle" tabindex="1" title="shuffle">shuffle</a></li>
+                <li><a href="javascript:;" class="jp-shuffle-off" tabindex="1" title="shuffle off">shuffle off</a></li>
                 <li><a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">repeat</a></li>
                 <li><a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">repeat off</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="jp-title">
-            <ul>
-              <li>You Did It</li>
             </ul>
-          </div>
-          <div class="jp-no-solution">
-            <span>Update Required</span>
-            To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
-          </div>
-        </div>
+  </div>
+  <div class="jp-playlist">
+    <ul>
+      <li></li>
+    </ul>
+  </div>
+  <div class="jp-no-solution">
+    <span>Update Required</span>
+    To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+  </div>
+</div>
     </div>
 
 </body>
