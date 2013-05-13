@@ -16,6 +16,7 @@ $(document).ready(function() {
             });
         },
         swfPath: "js",
-        supplied: "mp3, oga"
+        supplied: "mp3, oga",
+        volume: 0.4
     });
 });
